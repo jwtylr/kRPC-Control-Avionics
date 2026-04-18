@@ -7,7 +7,6 @@ import launch_controller as lc
 # Connect and get static references
 conn = krpc.connect()
 vessel = conn.space_center.active_vessel
-<<<<<<< HEAD:kRPC_CG1.py
 body = vessel.orbit.body
 refframe = body.non_rotating_reference_frame
 
@@ -30,5 +29,3 @@ if __name__ == "__main__":
             break
 
     print("CG1 complete")
-=======
->>>>>>> 595927f4a53aff017bc43f9bc79ae39e09441e0f:kRPC_GC1.py
